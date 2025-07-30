@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Media About Me</title>
+</head>
+<body>
+
+  <h1>Powerful Media Message About Me</h1>
+
+  <h2>Who I Am Visually</h2>
+
+  <picture>
+    <!-- Mobile -->
+    <source media="(max-width: 600px)" srcset="media/image1.jpg">
+    <!-- Tablet -->
+    <source media="(min-width: 601px) and (max-width: 1024px)" srcset="media/image1.jpg">
+    <!-- Desktop -->
+    <source media="(min-width: 1025px)" srcset="media/image1.jpg">
+    <!-- Default fallback -->
+    <img src="media/image1.jpg" alt="Ayodeji Owoseni">
+  </picture>
+
+  <h2>My Audio Message</h2>
+  <audio controls>
+    <source src="media/play1.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <h2>My Video Message</h2>
+  <video width="320" height="240" controls>
+    <source src="media/video1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <p><a href="index.html">Back to Profile</a></p>
+
+  <hr>
+  <p>&copy; 2025 Ayodeji Owoseni</p>
+
+</body>
+</html>
